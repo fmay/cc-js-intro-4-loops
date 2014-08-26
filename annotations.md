@@ -3,7 +3,7 @@
 
 Loops is another mainstay of any programming language. There are loops in Javascript
 
-- `for`
+- `for` 
 - `while`
 - `do` / `while`
 
