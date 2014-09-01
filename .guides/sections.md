@@ -2,7 +2,7 @@
 title: LOOPS
 files: []
 editable: true
-layout: ""
+layout: 2-panels-tree
 
 ---
 Loops is another mainstay of any programming language. There are a few loop types in Javascript
