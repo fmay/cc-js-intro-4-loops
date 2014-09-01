@@ -1,7 +1,7 @@
 @annotation:tour intro
 #LOOPS
 
-Loops is another mainstay of any programming language. There are loops in Javascript
+Loops is another mainstay of any programming language. There are a few loop types in Javascript
 
 - `for` 
 - `while`
@@ -13,7 +13,7 @@ each of which we'll explain in this module. There is also another special loop t
 
 
 @annotation:tour for
-#For
+#The 'for' loop
 >Select 'Loops' from the ![](.guides/an-img/rocket.png) Rocket menu at the top to load some code or restore it if you mess it up.
 
 For loops are incredibly useful and you'll see them all over the place.
@@ -53,7 +53,7 @@ So, in plain English, this loop does the following
 - *starting at 0, display the 'i'th flower in the flowers array, incrementing the counter `i` at the end of each iteration of the loop. When the upper limit of the array is reached, stop*
 
 @annotation:tour while
-#While
+#The 'while' loop
 A while loop is simply another way of doing the same thing as the for loop.
 
 Let's do the same thing as our previous example but with a while loop.
