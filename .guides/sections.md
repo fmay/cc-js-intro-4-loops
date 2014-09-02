@@ -5,7 +5,7 @@ editable: true
 layout: 2-panels-tree
 
 ---
-Loops is another mainstay of any programming language. There are a few loop types in Javascript
+Loops are another mainstay of any programming language. There are a few loop types in Javascript
 
 - `for` 
 - `while`
@@ -37,7 +37,7 @@ document.write(flowers[2] + "<br/>");
 document.write(flowers[3] + "<br/>");
 ```
 
-`var flowers = ['Daisy', 'Rose', 'Daffodil', 'Weed']` creates a so-called array, which we'll cover fully in the 'Arrays' module. All we need to worry about for now is that an array is a collection of multiple values, all stored in one single variable.
+`var flowers = ['Daisy', 'Rose', 'Daffodil', 'Weed']` creates a so-called array, which we have covered fully in the 'Arrays' module. All we need to worry about for now is that an array is a collection of multiple values, all stored in one single variable.
 
 A much better way to write the above code (imagine if the array contained hundreds of flowers) is to use a loop.
 
@@ -54,7 +54,7 @@ Let's look at the constituent parts of the `for` statement
 
 - `i=0` is the *initialization* part; you can initalize one or more variables here, separated by a comma
 - `i<upperLimit` is the *condition* part and the loop will continue to execute until this condition is true
-- `i++` is the *interation expression* and at the end of each loop, this expression is executed; it's generally used to update or increment the counter variable (`i` in our case).
+- `i++` is the *iteration expression* and at the end of each loop, this expression is executed; it's generally used to update or increment the counter variable (`i` in our case).
 
 So, in plain English, this loop does the following
 
@@ -162,7 +162,7 @@ Rose
 Weed
 ```
 ---
-title: "#Which loop type should I use?"
+title: Which loop type should I use?
 files: []
 editable: false
 layout: ""
