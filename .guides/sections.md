@@ -24,7 +24,7 @@ layout: ""
 ---
 >Select 'Loops' from the ![](.guides/img/rocket.png) Rocket menu at the top to load some code or restore it if you mess it up.
 
-For loops are incredibly useful and you'll see them all over the place.
+'For' loops are incredibly useful and you'll see them all over the place.
 
 Consider the following piece of mind-blowingly dull code..
 
@@ -52,7 +52,7 @@ for(i=0; i<upperLimit; i++) {
 
 Let's look at the constituent parts of the `for` statement
 
-- `i=0` is the *initialization* part; you can initalize one or more variables here, separated by a comma
+- `i=0` is the *initialization* part; you can initialize one or more variables here, separated by a comma
 - `i<upperLimit` is the *condition* part and the loop will continue to execute until this condition is true
 - `i++` is the *iteration expression* and at the end of each loop, this expression is executed; it's generally used to update or increment the counter variable (`i` in our case).
 
@@ -67,9 +67,9 @@ editable: true
 layout: ""
 
 ---
-A while loop is simply another way of doing the same thing as the for loop.
+A 'while' loop is simply another way of doing the same thing as the 'for' loop.
 
-Let's do the same thing as our previous example but with a while loop.
+Let's do the same thing as our previous example but with a 'while' loop.
 
 ```
 var flowers = ['Daisy', 'Rose', 'Daffodil', 'Weed'];
@@ -88,9 +88,9 @@ editable: true
 layout: ""
 
 ---
-The do...while loop is yet another flavour of loop. 
+The 'do...while' loop is yet another flavour of loop. 
 
-Again, let's do the same thing as our previous example but with a do...while loop.
+Again, let's do the same thing as our previous example but with a 'do...while' loop.
 
 ```
 var flowers = ['Daisy', 'Rose', 'Daffodil', 'Weed'];
