@@ -3,8 +3,8 @@
 
 	// Run button configuration
   "commands": {
-    "Loops": "~/workspace/.guides/restore.sh 01-loops",
-    "Break & Continue": "~/workspace/.guides/restore.sh 02-break-continue"    
+    "Loops": "bash ~/workspace/.guides/restore.sh 01-loops",
+    "Break & Continue": "bash ~/workspace/.guides/restore.sh 02-break-continue"    
   },
   
 	// Preview button configuration
