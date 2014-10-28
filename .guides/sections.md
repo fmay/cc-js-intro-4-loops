@@ -58,12 +58,16 @@ each of which we'll explain in this module. There is also another special loop t
 
 ---
 title: "The 'for' loop"
-files: []
+files:
+  - path: example.js
+    action: open
+    ref: // FOR
+    lineCount: 9
 editable: true
 layout: ""
 
 ---
->Select 'Loops' from the ![](.guides/img/rocket.png) Rocket menu at the top to load some code or restore it if you mess it up.
+>The code for 'Loops' module is already loaded in your project. Ii you need to restore you can do from the ![](.guides/img/rocket.png) Rocket menu, select 'Loops'. 
 
 'For' loops are incredibly useful and you'll see them all over the place.
 
@@ -103,7 +107,11 @@ So, in plain English, this loop does the following
 
 ---
 title: "The 'while' loop"
-files: []
+files:
+  - path: example.js
+    action: open
+    ref: // WHILE
+    lineCount: 7
 editable: true
 layout: ""
 
@@ -124,7 +132,11 @@ while(i<upperLimit) {
 ```
 ---
 title: "The 'do..while' loop"
-files: []
+files:
+  - path: example.js
+    action: open
+    ref: // DO ... WHILE
+    lineCount: 6
 editable: true
 layout: ""
 
@@ -145,12 +157,18 @@ do {
 ```
 ---
 title: "Break & Continue"
-files: []
-editable: false
+files:
+  - path: "#all"
+    action: close
+    ref: ""
+  - path: "#cmd: bash .guides/restore.sh 02-break-continue, example.js"
+    action: open
+    ref: ""
+editable: true
 layout: ""
 
 ---
->Select 'Break & Continue' from the ![](.guides/img/rocket.png) Rocket menu at the top to load some code or restore it if you mess it up.
+>We have loaded new content for you but if you need to restore you can do from the ![](.guides/img/rocket.png) Rocket menu, select 'Break & Continue'. 
 
 You will occasionally find the following situations 
 

@@ -11,26 +11,30 @@ function play() {
   // LOOPS
   document.write("LOOPS<br/><br/>");
 
-  document.write("CONTINUE & BREAK<br/>");
+  // FOR
+  document.write("FOR<br/>");
 
-  var flowers = ['Daisy', 'Rose', 'Daffodil', 'Weed', 'Dandelion', 'Deadly Nightshade'];
+  var flowers = ['Daisy', 'Rose', 'Daffodil', 'Weed'];
   var i;
   var upperLimit=flowers.length;
+  for(i=0; i<upperLimit; i++) {
+    document.write(flowers[i] + "<br/>");	
+  }
+
+  // WHILE
+  document.write("<br/>WHILE<br/>");
+
+  i=0;
+  while(i<upperLimit) {
+    document.write(flowers[i++] + "<br/>");
+  }
   
-  document.write("<br/>All of our flowers ...<br/>");  
-  for(i=0; i<upperLimit; i++) {
-    document.write(flowers[i] + "<br/>");	
-  }
-
-  document.write("<br/><br/>NOT all of our flowers ...<br/>");  
-  for(i=0; i<upperLimit; i++) {
-    if(i==2)
-      continue;
-    if(i==4)
-      break;
-    document.write(flowers[i] + "<br/>");	
-  }
-
+  // DO ... WHILE
+  document.write("<br/>DO ... WHILE<br/>");  
+  i=0;
+  do {
+    document.write(flowers[i] + "<br/>");    
+  } while(++i<upperLimit);
   
 }
 
